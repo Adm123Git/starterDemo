@@ -1,0 +1,14 @@
+info-controller:
+  end-point:
+    version: true
+    ping: true
+    state: true
+    selftest: true
+
+elasticsearch:
+  hostname: "elastichost.domain.ru"
+  port: 9200
+  schema: "http"
+
+f130admin:
+  hosturl: "http://f130adminhost.domain.ru:8080"
